@@ -1,12 +1,11 @@
-import { Outlet } from "react-router-dom";
-import NavBar from "./NavBar";
+//import { Outlet } from "react-router-dom";
+import NavBar from "./navbar/NavBar";
 
 function Layout() {
   return (
     <div>
       <NavBar />
-      <Outlet />
-      <footer>By Maria Bodero</footer>
+      <footer>Mentor Me</footer>
     </div>
   );
 }

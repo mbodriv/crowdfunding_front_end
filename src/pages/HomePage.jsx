@@ -1,5 +1,5 @@
 import useFundraisers from "../hooks/use-fundraisers";
-import FundraiserCard from "../component/FundraiserCard";
+import FundraiserCard from "../component/fundraiser_card/FundraiserCard";
 import "./HomePage.css";
 
 function HomePage() {
